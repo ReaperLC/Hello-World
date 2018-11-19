@@ -5,11 +5,7 @@
 //  Created by 刘灿 on 2018/10/25.
 //  Copyright © 2018年 刘灿. All rights reserved.
 //
-
-
-#import "TKFtHUD.h"
 #import "AFNetworking.h"
-
 #import "ViewController.h"
 
 @interface ViewController ()
