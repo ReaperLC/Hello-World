@@ -93,9 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4172DC8321A28C3F00477C48 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		41F20E5E218190E00040AC97 = {
 			isa = PBXGroup;
 			children = (
+				4172DC8321A28C3F00477C48 /* Resource */,
 				41F20E69218190E00040AC97 /* GCD使用 */,
 				41F20E82218190E00040AC97 /* GCD使用Tests */,
 				41F20E8D218190E10040AC97 /* GCD使用UITests */,

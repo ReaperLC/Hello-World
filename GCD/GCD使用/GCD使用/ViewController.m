@@ -67,7 +67,6 @@
         }
     });
     
-    
     dispatch_sync(queue, ^{
         // 添加任务2
         for (int i = 0; i < 2; ++i) {
@@ -105,7 +104,6 @@
             NSLog(@"1---%@",[NSThread currentThread]);      // 打印当前线程
         }
     });
-    
     
     dispatch_sync(queue, ^{
         // 添加任务2
