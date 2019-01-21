@@ -9,11 +9,16 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) NSMutableArray *array;
 @end
 
 @implementation ViewController
-
+-(NSMutableArray *)array{
+    if (!_array) {
+        _array = [NSMutableArray array];
+    }
+    return _array;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     //同步 + 并发
@@ -42,6 +47,8 @@
     
     //延时执行
 //    [self queueDelay];
+    
+//    [self groupNotify];
 }
 
 /**
@@ -303,9 +310,7 @@
             NSLog(@"2---%@",[NSThread currentThread]);      // 打印当前线程
         }
     });
-    
-    
-    
+
 //    dispatch_barrier_sync(queue, ^{
 //        NSLog(@"===================================栅栏===================================");
 //    });
@@ -404,6 +409,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end
