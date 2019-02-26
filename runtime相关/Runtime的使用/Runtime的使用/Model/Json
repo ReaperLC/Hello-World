@@ -1,0 +1,19 @@
+{
+  "iconurl": "https://cdn.kaishuhezi.com/kstory/story/image/bbd7ce34-ccef-42f2-aa01-79dcf4017570.jpg",
+  "subhead": "云对雨，雪对风，晚照对晴空。",
+  "storyname": "这个杀手不太冷",
+  "author": {
+    "name": "Sunny",
+    "address": "北京"
+  },
+  "books": [
+  {
+    "name": "西游记",
+    "price": 99
+  },
+  {
+    "name": "红楼梦",
+    "price": 199
+  }]
+}
+
